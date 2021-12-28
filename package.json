@@ -1,0 +1,22 @@
+{
+  "name": "restaurantboard",
+  "version": "1.0.0",
+  "description": "### 飲食店の口コミサイト",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamadayuuki/RestaurantBoard.git"
+  },
+  "author": "Hamada Yuki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hamadayuuki/RestaurantBoard/issues"
+  },
+  "homepage": "https://github.com/hamadayuuki/RestaurantBoard#readme",
+  "devDependencies": {
+    "eslint": "^8.5.0"
+  }
+}
