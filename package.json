@@ -18,5 +18,8 @@
   "homepage": "https://github.com/hamadayuuki/RestaurantBoard#readme",
   "devDependencies": {
     "eslint": "^8.5.0"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
   }
 }
