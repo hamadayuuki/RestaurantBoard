@@ -20,6 +20,7 @@
     "eslint": "^8.5.0"
   },
   "dependencies": {
+    "ejs": "^3.1.6",
     "express": "^4.17.2"
   }
 }
