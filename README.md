@@ -224,3 +224,22 @@ options : 静的ファイル配信時のオプション
     - lastModified : LastModifiedを利用するかどうか
     - maxAge : max-ageをミリ秒で指定
 
+### favicon の設定
+```
+yarn add serve-favicon
+```
+app.js に favicon配信 の設定<br>
+
+```app.js
+// serve-favicon のインポート
+const favicon = require( "serve-favicon" );
+
+// favicon のパス("/public/favicon.ico")を使用して,favicon を設定
+app.use( favicon( path.join( __dirname, "/public/favicon.ico" ) ));
+```
+
+
+
+
+
+
